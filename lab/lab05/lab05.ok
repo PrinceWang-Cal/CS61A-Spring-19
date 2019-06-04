@@ -1,0 +1,26 @@
+{
+    "name": "Lab 5",
+    "endpoint": "cal/cs61a/sp19/lab05",
+    "src": [
+        "lab05.py",
+        "lab05_extra.py"
+    ],
+    "tests": {
+        "lab05.py": "doctest",
+        "lab05_extra.py": "doctest",
+        "tests/lists.py": "ok_test"
+    },
+    "default_tests": [
+        "lists",
+        "if_this_not_that",
+        "acorn_finder"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

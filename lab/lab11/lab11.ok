@@ -1,0 +1,28 @@
+{
+    "name": "Lab 11",
+    "endpoint": "cal/cs61a/sp19/lab11",
+    "src": [
+        "lab11.scm"
+    ],
+    "tests": {
+        "tests/wwsd-macros.py" : "ok_test",
+        "tests/wwsd-quasiquote.py" : "ok_test",
+        "tests/scheme-def.py" : "ok_test",
+        "tests/or-macro.py" : "ok_test",
+        "tests/dragon.py" : "ok_test"
+    },
+    "default_tests": [
+        "wwsd-macros",
+        "wwsd-quasiquote",
+        "scheme-def",
+        "or-macro"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

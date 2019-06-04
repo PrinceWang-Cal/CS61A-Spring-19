@@ -1,0 +1,23 @@
+{
+    "name": "Homework 6",
+    "endpoint": "cal/cs61a/sp19/hw06",
+    "src": [
+        "hw06.py"
+    ],
+    "tests": {
+        "hw06.py": "doctest"
+    },
+    "default_tests": [
+        "Fib",
+        "VendingMachine",
+        "survey"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

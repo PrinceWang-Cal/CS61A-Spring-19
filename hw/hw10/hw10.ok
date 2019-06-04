@@ -1,0 +1,28 @@
+{
+    "name": "Homework 10",
+    "endpoint": "cal/cs61a/sp19/hw10",
+    "src": [
+        "hw10.scm",
+        "hw10.py"
+    ],
+    "tests": {
+        "tests/accumulate.py": "ok_test",
+        "tests/accumulate-tail.py": "ok_test",
+        "tests/rle.py" : "ok_test",
+        "hw10.py": "doctest"
+    },
+    "default_tests": [
+        "accumulate",
+        "accumulate-tail",
+        "rle",
+        "generate_paths"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
